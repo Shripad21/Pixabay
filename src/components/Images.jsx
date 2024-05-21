@@ -26,7 +26,7 @@ function Images() {
         <div className='grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3'>
             {imageData.map((img, index) => (
                 <Link to={'image/' + img.id} key={index} className='flex flex-col items-center justify-center shadow-[0_3px_10px_rgb(0,0,0,0.2)] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] relative overflow-hidden rounded-sm'>
-                    <img src={img.webformatURL} alt="sample img"
+                    <img src={img.previewURL} alt="sample img"
                  className='' />
                  <div className='flex items-center justify-around w-full flex-nowrap'>
                     <div className='flex items-center justify-center flex-nowrap'>
