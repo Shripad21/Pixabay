@@ -61,13 +61,13 @@ function NavBar() {
                 }}
                 >Vectors</button>
             </li>
-            <li className='duration-150 border-gray-500 hover:text-slate-950 hover:border-b-2'>
+            {/* <li className='duration-150 border-gray-500 hover:text-slate-950 hover:border-b-2'>
                 <button 
                 onClick={ () => {
                     setUrlType('video')
                 }}
                 >Videos</button>
-            </li>
+            </li> */}
         </ul>
         </div>
     </nav>
